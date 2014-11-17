@@ -28,8 +28,7 @@ Same applies for ol li */
 			}
 
 			div {
-				height: 200px;
-				background-color: rgba(0,0,0,.4);
+				height: 70px;
 				background-size: cover;
 				position: center;
 			}
@@ -80,18 +79,48 @@ Same applies for ol li */
 			}
 
 			.first {
-				max-width: 500px;
 				text-align: center;
 				margin: 0 auto;
-				transition: height .5s;
-				-webkit-transition: height .5s;
-				-moz-transition: height .5s;
+				min-width: 200px;
 			}
 
-			.github {
-				height: 70px;
+			.profile {
+				height: 100px;
 			}
 
 			.images {
 				height: 450px;
+			}
+
+			.lang {
+				height: 450px;
+			}
+
+			#social-buttons button {
+				color: white;
+				font-family: 'Abel'; sans-serif;
+			}
+
+			.btn-twitter {
+				background-color: #00acee;
+				border-color: #009ad5;
+			}
+
+			.btn-Github {
+				background-color: rgba(0,0,0,1);
+				border-color: rgba(255,255,255,1);
+				margin: 0 auto;
+			}
+
+			.btn-wordpress {
+				background-color: #21759b;
+				border-color: #FFFFFF;
+				position: justify;
+			}
+
+			.jumbotron {
+				height: 300px;
+				background-image: url('jumbotron-image.jpg');
+				background-size: cover;
+				background-attachment: fixed;
 			}

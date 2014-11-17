@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="index_stylesheet_1.css">
 		<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+		<link href="C:/Users/niruna95/Documents/Code_First/coding_course_first/first_site/dist/css/bootstrap.css" rel="stylesheet">
 	<!-- inside href, the stylesheet has only be refered to using its file name because it is present in the folder where the html file has been saved. However, if it in a different folder but under the same drive, you can use this format:
 	"../Documents/index_stylesheet_1.css" - This is the relative path
 	 
@@ -13,21 +14,50 @@
 	 i.e. "C:/DOcuments/index_stylesheet_1.css" - This is the direct path --> 
 	</head>
 
-	<body>
-		<h1 id="head">a mushroom's world</h1>
+	<body class="container">
+		<div class="jumbotron">		
+			<h1 id="head">a mushroom's world</h1>
 
-		<p id="opening">This is my <strong>first web page</strong>.</p>
-		<p id="opening">It contains a little bit about <em>me</em>.</p>
-	<div class="github first">
-		<h3>This is my Github profile</h3>
-			<a href="http://github.com/nirunas95" target="_blank">
-				<strong>Niruna Suntharalingam</strong>
-			</a>
-	</div>
-	<div class="images first">		
-		<h3>This is my gravatar:</h3>
-			<img alt='My Photo'src="C:\Users\niruna95\Pictures\proxy.jpg">
-	</div>
+			<p id="opening">This is my <strong>first web page</strong>.</p>
+			<p id="opening">It contains a little bit about <em>me</em>.</p>
+		</div>
+		
+		<div>
+		<div class="profile first">
+			<h3>These are my profiles:</h3>
+				<div id="social-buttons">
+					<a href="http://github.com/nirunas95" target="_blank">
+						<button class='btn btn-lg btn-Github'>Github</button>
+					</a>
+				
+					<a href="http://twitter.com/nirunamensi" target="blank">
+						<button class='btn btn-lg btn-twitter'>Twitter</button>
+					</a>
+				
+					<a href="http://2truemushroom.wordpress.com" target="blank">
+						<button class='btn btn-lg btn-wordpress'>Wordpress</button>
+					</a>
+		</div>
+		
+		<div>
+		<div class="row">
+			<div class="images first">	
+				<div class='col-sm-4'>	
+					<h3>This is my gravatar:</h3>
+						<img alt='My Photo'src="C:\Users\niruna95\Pictures\proxy.jpg">
+				</div>
+			</div>
+
+			<div class="lang first">
+				<div class='col-sm-8'>
+					<h3>Hi</h3>
+						<img alt='My Photo'src="C:\Users\niruna95\Pictures\proxy.jpg">
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+<!--
 	<div>	
 		<h3>My Favourite Markup Languages:</h3>
 			<ul>
@@ -65,6 +95,6 @@
 				</tr>
 			</tbody>
 		</table>
-	</div>
+	</div> -->
 	</body>
 </html>
